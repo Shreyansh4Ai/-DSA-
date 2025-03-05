@@ -2,7 +2,7 @@
 using namespace std;
 
 int binary(int arr[],int key ,int size){
-
+                                             // binary search is done on sorted array only //
   int start =0;
   int end =size-1;
   
