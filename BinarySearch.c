@@ -19,7 +19,7 @@ int binary(int arr[],int key , int size){
 }
 int main(){
     int arr[]={1,2,3,4,5,6};
-    int key=3;
+    int key=0;
     int size=6;
 
     int result=binary(arr,key,size);
