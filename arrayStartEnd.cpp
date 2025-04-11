@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>           //prints first then last element 10,80,20,70,........
 using namespace std;
 
 int main(){
