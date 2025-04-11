@@ -19,7 +19,7 @@ int binary(int arr[],int key ,int size){
           start=mid+1;
          }
     }
-    return -1; // key not found 
+    return -1;  
   
 }
 int main(){
