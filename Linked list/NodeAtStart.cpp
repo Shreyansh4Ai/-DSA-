@@ -28,7 +28,7 @@ void display(Node *head){
     }
 
     cout <<"NULL"<<endl;
-    
+
 
 }
 
@@ -36,4 +36,9 @@ int main(){
 Node* head = NULL;
 insertatHead(head , 2 );
 display(head);
+insertatHead(head,4);
+display(head);
+insertatHead(head ,3);
+display(head);
+
 }
