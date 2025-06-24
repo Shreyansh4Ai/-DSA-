@@ -6,7 +6,7 @@ class Node{
     int val;
     Node*next ;
 
-    Node(value){
+    Node(int value){ 
           val = value ;
           next = NULL;
     }
@@ -15,12 +15,8 @@ class Node{
 
 int main(){
 
-Node*n = newNode(1) ; 
-cout << 
-
-
-
-
+    Node* n = new Node(1); 
+    cout << n->val << " " << n->next << endl; 
 
     return 0 ;
 }
